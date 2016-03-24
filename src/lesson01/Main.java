@@ -13,7 +13,7 @@ public class Main {
      */
     public static void main(String[] args) {
         System.out.format("Hello %s!\n", args[0]);
-      //  Car raceCar = new RaceCar();
+        Resumeimpl NewResume = new Resumeimpl("Ivan Kornilov");
      //   Car raceCar2 = new RaceCar();
      //   Car simpleCar = new SimpleCar();
      //   raceCar2.speed=200;
