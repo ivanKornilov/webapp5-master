@@ -1,8 +1,8 @@
 package lesson01;
 
 /**
- * User: gkislin
- * Date: 18.06.2014
+ * User: IKornilov
+ * Date: 24.03.2016
  */
 public class Main {
     /**
