@@ -11,6 +11,4 @@ public class Resume {
     private String location;
     List<Contact> contacts;
     List<Sections> sections;
-
-
 }

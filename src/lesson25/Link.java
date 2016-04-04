@@ -5,7 +5,7 @@ package lesson25;
  * 25.03.2016
  */
 public class Link {
-    public static Link EMPTY = new Link();
+    private static Link EMPTY = new Link();
     private String name;
     private String url;
 
@@ -75,7 +75,7 @@ public class Link {
                 '}';
     }
 
-    public Link empty() {
+    public static Link empty() {
         return EMPTY;
     }
 }
