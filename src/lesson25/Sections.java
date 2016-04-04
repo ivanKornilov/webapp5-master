@@ -5,6 +5,5 @@ package lesson25;
  * 28.03.2016
  */
 public class Sections {
-    String type;
-
+    SectionType type;
 }

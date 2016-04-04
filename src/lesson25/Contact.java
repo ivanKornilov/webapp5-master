@@ -5,7 +5,7 @@ package lesson25;
  * 28.03.2016
  */
 public class Contact {
-    private final ContactType type;
+    private ContactType type;
     private String value;
 
 
@@ -15,11 +15,11 @@ public class Contact {
         this.value = value;
     }
 
-    public String getType() {
+    public ContactType getType() {
         return type;
     }
 
-    public void setType(String type) {
+    public void setType(ContactType type) {
         this.type = type;
     }
 

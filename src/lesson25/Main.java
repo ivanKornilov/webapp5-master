@@ -14,6 +14,9 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         System.out.println(new Date());
+        Contact c = new Contact(ContactType.HOME_PHONE,"121313");
+
+      /*
         Connection c = null ;
 
         try {
@@ -53,6 +56,6 @@ public class Main {
         }
         catch (Exception ex)
         {    System.out.println("Other Error in Main.");    }
-
+*/
     }
 }
