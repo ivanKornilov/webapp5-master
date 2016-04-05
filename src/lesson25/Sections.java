@@ -5,5 +5,5 @@ package lesson25;
  * 28.03.2016
  */
 public class Sections {
-    SectionType type;
+    protected SectionType type;
 }

@@ -5,7 +5,8 @@ package lesson25;
  * 04.04.2016
  */
 public enum SectionType {
+    OBJECTIVE,
     ACHIEVEMENT,
     EDUCATION,
-    WORK
+    QUALIFICATION
 }
