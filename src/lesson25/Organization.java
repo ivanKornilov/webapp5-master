@@ -1,12 +1,12 @@
 package lesson25;
 
+import java.util.List;
+
 /**
  * Kornilov
  * 28.03.2016
  */
 public class Organization {
-    String name;
-    String url;
-    String position;
-    String achievements;
+    private Link link;
+    private List<OrganizationPeriod> periods;
 }
