@@ -1,5 +1,6 @@
 package lesson25;
 
+import java.lang.reflect.Field;
 import java.sql.* ;
 import com.mysql.jdbc.Driver;
 import java.io.*;
@@ -12,10 +13,15 @@ import java.util.Date;
  */
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
         System.out.println(new Date());
         Contact c = new Contact(ContactType.HOME_PHONE,"121313");
 
+
+        Link l = new Link("fgfg","fgfgg");
+        Field f = Link.class.getDeclaredField("url");
+        f.setAccessible(true);
+        System.out.println(f.get(l));
       /*
         Connection c = null ;
 
